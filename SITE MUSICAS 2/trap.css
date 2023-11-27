@@ -1,0 +1,86 @@
+@font-face{
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+} 
+@font-face{
+    font-family: Coffee1;
+    src: url(coffee2.otf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+.menu{ 
+    background-color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    max-width: 217px;
+    width: 100%px;
+    height: 619px;
+    overflow-y: scroll;
+    padding-left: 15px;
+}
+.menu ul{
+    list-style: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    position: relative; 
+}
+.menu a{
+    color: white;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    transition: backgroun .3s;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: blue;
+    color: white;
+}
+.menu li ul{
+    display: none;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul{
+    position: relative;
+    bottom: 100%;
+    max-width: 180px;
+    left: 20px; 
+}
+.menu::-webkit-scrollbar{ /*sistema de rolagem*/
+    width: 15px;
+}
+.menu::-webkit-scrollbar-thumb{ /*sistema de rolagem*/
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+.menu::-webkit-scrollbar-track{ /*sistema de rolagem*/
+    background-color: black;
+}
+.conteudo{
+    width: 83%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 232px;
+}
+.titulo{
+    background-color: #1C1C1C;
+    color: white;
+    left: 232px;
+    width: 100%;
+    height: 140px;
+}
+#tt1{
+    font-family: Coffee1;
+    font-size: 70px;
+    padding: 22px;
+}
