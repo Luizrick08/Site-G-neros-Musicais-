@@ -1,0 +1,166 @@
+@font-face{
+    font-family: Roboto;
+    src: url(Roboto.ttf);
+} 
+@font-face{
+    font-family: Coffee1;
+    src: url(coffee2.otf);
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #905b3b;
+}
+.menu{ 
+    background-color: #35120c;
+    font-family: Roboto;
+    font-size: 18px;
+    max-width: 217px;
+    width: 100%px;
+    height: 2050px;
+    overflow-y: scroll;
+    padding-left: 15px;
+}
+.menu ul{
+    list-style: none;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    position: relative; 
+}
+.menu a{
+    color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: backgroun .3s;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    text-decoration-line: underline;
+}
+.menu li ul{
+    display: none;
+}
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul{
+    position: relative;
+    bottom: 100%;
+    max-width: 180px;
+    left: 20px; 
+}
+.menu::-webkit-scrollbar{ /*sistema de rolagem*/
+    width: 15px;
+}
+.menu::-webkit-scrollbar-thumb{ 
+    background-color: white;
+    border-radius: 20px;
+    border: 5px solid #35120c;
+}
+.menu::-webkit-scrollbar-track{ /*sistema de rolagem*/
+    background-color: #35120c;
+}
+.conteudo{
+    width: 80%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 232px;
+}
+.titulo{
+    color: white;
+    left: 232px;
+    width: 100%;
+    height: 140px;
+}
+#tt1{
+    font-family: Coffee1;
+    font-size: 70px;
+    padding: 22px;
+}
+.img1{
+    position: relative;
+    left: 80px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px black;
+}
+.tt2{
+    font-family: Roboto;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    right: 100px;
+    float: right;
+    width: 500px;
+    text-align: justify;    
+}
+#tt3{
+    position: relative;
+    float: left;
+    left: 330px;
+    font-family: Coffee1;
+    font-size: 60px;
+    color: white; 
+}
+#tt4{
+    position: relative;
+    float: left;
+    top: 82px;
+    right: 130px;
+    font-family: Coffee1;
+    font-size: 40px;
+    color: white;
+}
+#vid1{
+    position: relative;
+    float: left;
+    top: 110px;
+    right: 200px;
+    box-shadow: 0px 0px 15px black;
+}
+#tt5{
+    position: relative;
+    float: left;
+    top: 143px;
+    left: 350px;
+    font-family: Coffee1;
+    font-size: 40px;
+    color: white;
+}
+#vid2{
+    position: relative;
+    float: left;
+    top: 225px;
+    right: 150px;
+    box-shadow: 0px 0px 15px black;
+}
+#tt6{
+    position: relative;
+    float: right;
+    top: 275px;
+    right: 280px;
+    font-family: Coffee1;
+    font-size: 40px;
+    color: white;
+}
+#vid3{
+    position: relative;
+    float: left;
+    left: 240px;
+    top: 330px;
+    box-shadow: 0px 0px 15px black;
+}
+footer{
+    font-family: Roboto;
+    color: white;
+    height: 50px;
+    background-color: #603020;
+}
